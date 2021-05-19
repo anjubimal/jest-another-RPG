@@ -8,3 +8,7 @@ test('creates a random potion object', () => {
     expect(potion.name.length).toBeGreaterThan(0);
     expect(potion.value).toEqual(expect.any(Number));
 });
+
+// expect(player.inventory).toEqual(
+//     expect.arrayContaining([expeect.any(Object)])
+// );
